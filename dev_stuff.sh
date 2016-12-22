@@ -1,7 +1,5 @@
 #!/bin/sh
 
-source ~/.specifics
-
 # github ssh key:
 # TODO: remove my actual email address
 ssh-keygen -t rsa -b 4096 -C "$GITHUB_EMAIL"
