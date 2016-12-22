@@ -22,9 +22,17 @@ brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
 
-# brew some stuff -- probably forgetting things...
+### Brew some stuff -- probably forgetting things...
 brew install wget
 brew install hub
+
+# DB and stores:
+brew install mysql
+brew services start mysql
+brew install postgresql
+brew services start postgresql
+brew install redis
+brew services start redis
 
 # vim stuff:
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim

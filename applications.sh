@@ -16,5 +16,6 @@ tryInstall "alfred"
 tryInstall "1password"
 tryInstall "firefox"
 tryInstall "skype"
+tryInstall "spectacle"
 
 brew cask cleanup
