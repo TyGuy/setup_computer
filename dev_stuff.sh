@@ -25,6 +25,7 @@ mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
 ### Brew some stuff -- probably forgetting things...
 brew install wget
 brew install hub
+brew install heroku
 
 # DB and stores:
 brew install mysql
