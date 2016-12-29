@@ -48,6 +48,7 @@ gem install rails
 gem install bundler
 gem install foreman
 gem install pry
+gem install rubocop
 
 # node and stuff
 brew install nvm

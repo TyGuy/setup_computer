@@ -17,5 +17,6 @@ tryInstall "1password"
 tryInstall "firefox"
 tryInstall "skype"
 tryInstall "spectacle"
+tryInstall "github-desktop"
 
 brew cask cleanup
