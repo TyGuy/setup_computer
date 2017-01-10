@@ -26,6 +26,7 @@ mv ~/.zshrc.pre-oh-my-zsh ~/.zshrc
 brew install wget
 brew install hub
 brew install heroku
+brew install ag
 
 # DB and stores:
 brew install mysql
@@ -34,6 +35,8 @@ brew install postgresql
 brew services start postgresql
 brew install redis
 brew services start redis
+brew install mongodb
+brew services start mongodb
 
 # vim stuff:
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
@@ -59,6 +62,8 @@ echo "probably restart terminal..."
 # to find the latest node version:
 # nvm ls-remote | tail -1
 nvm install v7.2.1
+npm install -g eslint
+npm install -g eslint-plugin-react
 
 # atom stuff
 apm install sync-settings

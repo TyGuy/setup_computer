@@ -18,5 +18,7 @@ tryInstall "firefox"
 tryInstall "skype"
 tryInstall "spectacle"
 tryInstall "github-desktop"
+tryInstall "libreoffice"
+tryInstall "mongodb-compass"
 
 brew cask cleanup
