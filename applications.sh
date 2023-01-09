@@ -1,24 +1,14 @@
 #!/bin/sh
 
-tryInstall() {
-  if hash $1 2>/dev/null; then
-    echo "$1 already installed"
-  else
-    brew cask install $1
-  fi
-}
-
-tryInstall "google-chrome"
-tryInstall "atom"
-tryInstall "slack"
-tryInstall "iterm2"
-tryInstall "alfred"
-tryInstall "1password"
-tryInstall "firefox"
-tryInstall "skype"
-tryInstall "spectacle"
-tryInstall "github-desktop"
-tryInstall "libreoffice"
-tryInstall "mongodb-compass"
-
-brew cask cleanup
+brew install --cask iterm2
+brew install --cask google-chrome
+brew install --cask visual-studio-code
+brew install --cask slack
+brew install --cask alfred
+brew install --cask 1password
+brew install --cask firefox
+brew install --cask rectangle
+brew install --cask github
+brew install --cask intellij-idea
+brew install --cask tableplus
+brew install --cask docker
