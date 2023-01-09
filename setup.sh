@@ -6,7 +6,11 @@
 . ./homebrew.sh
 . ./applications.sh
 . ./brew_utils.sh
+
+# NOTE: maybe dotfiles should go earlier?
 . ./dotfiles.sh
+
+. ./git_stuff.sh
 
 # At this point, use iTerm to set this up.
 . ./zsh.sh
