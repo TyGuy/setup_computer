@@ -25,5 +25,6 @@
 
 . ./aws.sh
 
+. ./keyboard.sh
 
 # . ./ctags.sh
