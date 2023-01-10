@@ -12,3 +12,5 @@ brew install --cask github
 brew install --cask intellij-idea
 brew install --cask tableplus
 brew install --cask docker
+brew install --cask figma
+brew install --cask zoom
