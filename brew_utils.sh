@@ -6,3 +6,5 @@ brew install hub
 brew install jq
 brew install ag
 brew install ctags
+brew install go
+
