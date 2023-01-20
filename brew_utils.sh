@@ -8,3 +8,6 @@ brew install ag
 brew install ctags
 brew install go
 
+# need to tap snyk first
+brew tap snyk/tap
+brew install snyk

@@ -8,4 +8,4 @@ defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
 defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
 # same thing for IntelliJ
-defaults write com.jetbrains.Intellij ApplePressAndHoldEnabled -bool false
+defaults write com.jetbrains.intellij ApplePressAndHoldEnabled -bool false
