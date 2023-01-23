@@ -15,3 +15,4 @@ brew install --cask docker
 brew install --cask figma
 brew install --cask zoom
 brew install --cask loom
+brew install --cask postman

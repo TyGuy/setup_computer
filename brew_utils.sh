@@ -7,6 +7,7 @@ brew install jq
 brew install ag
 brew install ctags
 brew install go
+brew install ngrok
 
 # need to tap snyk first
 brew tap snyk/tap
